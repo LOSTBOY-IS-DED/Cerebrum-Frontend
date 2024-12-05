@@ -1,11 +1,13 @@
 import { Button } from "./components/Button";
 import { Card } from "./components/Card";
+import { CreateContentModal } from "./components/CreateContentModal";
 import { PlusIcon } from "./icons/PlusIcon";
 import { ShareIcon } from "./icons/ShareIcon";
 
 function App() {
   return (
     <div className="p-4">
+      <CreateContentModal open={true} />
       <div className="flex justify-end gap-4">
         <Button
           variant="primary"
