@@ -1,9 +1,14 @@
-import Dashboard from "./pages/dashboard";
+// import Dashboard from "./pages/dashboard";
+
+// import SigninPage from "./pages/signin";
+import SignupPage from "./pages/signup";
 
 function App() {
   return (
     <div>
-      <Dashboard />
+      {/* <Dashboard /> */}
+      <SignupPage />
+      {/* <SigninPage /> */}
     </div>
   );
 }
