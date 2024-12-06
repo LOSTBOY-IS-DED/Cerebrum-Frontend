@@ -4,7 +4,7 @@ import { Card } from "./components/Card";
 import { CreateContentModal } from "./components/CreateContentModal";
 import { PlusIcon } from "./icons/PlusIcon";
 import { ShareIcon } from "./icons/ShareIcon";
-import { SideBar } from "./components/Sidbar";
+import { SideBar } from "./components/Sidebar";
 
 function App() {
   const [modalOpen, setModalOpen] = useState(false);
