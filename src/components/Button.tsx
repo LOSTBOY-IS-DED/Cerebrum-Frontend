@@ -4,9 +4,9 @@ interface ButtonProps {
   variant: "primary" | "secondary";
   text: string;
   startIcon?: ReactElement;
-  onClick?: MouseEventHandler<HTMLButtonElement>;
+  onClick?: MouseEventHandler<HTMLButtonElement> | void;
   fullWidth?: boolean;
-  loading: boolean;
+  loading?: boolean;
 }
 
 const variantClasses = {

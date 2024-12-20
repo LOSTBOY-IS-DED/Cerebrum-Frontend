@@ -11,7 +11,7 @@ export default function Input({
         type="text"
         ref={reference}
         placeholder={placeHolder}
-        className="px-4 py-2 m-2 border rounded"
+        className="px-4 py-2 m-2 border rounded text-black"
       />
     </div>
   );
